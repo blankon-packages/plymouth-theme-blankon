@@ -1,3 +1,9 @@
+plymouth-theme-blankon (0.13) verbeek; urgency=medium
+
+  * Add blankon logo under the progress bar
+
+ -- Herpiko Dwi Aguno <herpiko@gmail.com>  Sat, 21 Feb 2026 15:00:00 +0700
+
 plymouth-theme-blankon (0.12) verbeek; urgency=medium
 
   * rebuild for verbeek
