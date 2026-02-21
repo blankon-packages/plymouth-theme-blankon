@@ -413,10 +413,11 @@ shutdown_bg.sprite.SetOpacity(0);
 
 #----------------------------------------- BlankOn Logo --------------------------------
 
-blankon_logo.image = Image("blankon-logo-text-black-bg-transparent.png");
+blankon_logo.original_image = Image("blankon-logo-text-white-bg-transparent.png");
+blankon_logo.image = blankon_logo.original_image.Scale(blankon_logo.original_image.GetWidth() / 3, blankon_logo.original_image.GetHeight() / 3);
 blankon_logo.sprite = Sprite(blankon_logo.image);
 blankon_logo.x = Window.GetWidth() / 2 - blankon_logo.image.GetWidth() / 2;
-blankon_logo.y = progress_bg.y + progress_bg.image.GetHeight() + 20;
+blankon_logo.y = Window.GetHeight() / 2 - blankon_logo.image.GetHeight() / 2;
 blankon_logo.sprite.SetPosition(blankon_logo.x, blankon_logo.y, 5);
 
 if (mode == "boot") {
