@@ -1,0 +1,6 @@
+debian/files
+debian/*.substvars
+debian/*.debhelper.log
+debian/.debhelper/
+debian/plymouth-theme-blankon/
+debian/debhelper-build-stamp
